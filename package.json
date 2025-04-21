@@ -1,0 +1,25 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "expess": "^0.0.1-security",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/nodemailer": "^6.4.17"
+  }
+}
